@@ -38,7 +38,7 @@ const long interval = 500;
 bool ledState = LOW;
 
 // Define a master card UID for authentication.
-byte masterCardUID[] = {0x83, 0x1D, 0x63, 0x10};
+byte masterCardUID[] = {YOUR_MASTER_CARD_UID};
 
 void setup() {
   // Attach the Servo objects to their respective pins.
